@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Georgian", "Montserrat", serif;
+    font-style: normal;
+}
+
+ul,a {
+    list-style: none;
+    color:unset;
+    text-decoration: none;
+}
+p {
+    max-width: 1000px;
+}
+
+/* Navigation Panel */
+nav {
+    background-color: #091B41;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+.logo-text a{
+    font-family: "Indie Flower", serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 54px;
+}
+.hero {
+    background-image: url(../IMGS/cover.jpg);
+    min-height: 350px;
+    max-width: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 80px;
+    text-shadow: 0 0 2px black;
+    text-align: center;
+}
+.button {
+    background-color: #091B41;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+/* about us */
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 40px;
+
+}
+
+
+/* menu container */
+.menu-container {
+    background-image: url(../IMGS/menu-background.jpg);
+    min-height: 350px;
+    max-width: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards-container {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+.card {
+    background-color: #020d24;
+    width: 220px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.card h3 a {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* contact  */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 40px;
+}
+.contact-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    hanging-punctuation: 40px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #020d24;
+    gap: 40px;
+    padding: 40px;
+}
+
+footer .left-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+}
+footer .right-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+}
+.after-footer {
+    background-color:#091B41;
+    color: #888f9f;
+    text-align: center;
+    padding: 10px;
+}
